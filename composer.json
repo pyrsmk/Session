@@ -1,0 +1,20 @@
+{
+	"name": "pyrsmk/session",
+	"description": "A simple session variables manager",
+	"keywords": ["session"],
+	"license": "MIT",
+	"authors": [{
+		"name": "Aurélien Delogu",
+		"email": "dev@dreamysource.fr",
+		"homepage": "http://dreamysource.fr"
+	}],
+	"require": {
+		"php": ">=5.3.0",
+		"pyrsmk/chernozem": "3.*"
+	},
+	"autoload": {
+		"psr-0" : {
+			"" : "."
+		}
+	}
+}
