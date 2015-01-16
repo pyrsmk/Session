@@ -6,7 +6,7 @@ A simple session manager based on [Chernozem](https://github.com/pyrsmk/Chernoze
 Install
 -------
 
-Pick up the source or install it with [Composer](https://getcomposer.org/) :
+You can install it with [Composer](https://getcomposer.org/) :
 
 ```json
 {
@@ -15,6 +15,8 @@ Pick up the source or install it with [Composer](https://getcomposer.org/) :
     }
 }
 ```
+
+Or you can pick up the `Session.php` source file, but do not forget to add [Chernozem](https://github.com/pyrsmk/Chernozem) to your project.
 
 Managing session variables
 --------------------------
