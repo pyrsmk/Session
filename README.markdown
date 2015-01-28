@@ -11,7 +11,7 @@ You can install it with [Composer](https://getcomposer.org/) :
 ```json
 {
     "require": {
-        "pyrsmk/session": "0.*"
+        "pyrsmk/session": "0.1.*"
     }
 }
 ```
