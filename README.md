@@ -1,4 +1,4 @@
-Session 0.1.0
+Session 0.1.1
 =============
 
 A simple session manager based on [Chernozem](https://github.com/pyrsmk/Chernozem).
