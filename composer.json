@@ -16,14 +16,5 @@
 		"psr-0" : {
 			"" : "."
 		}
-	},
-	"archive": {
-		"exclude": [
-			".git/",
-			".gitignore",
-			"tests/",
-			"vendor/",
-			"composer.*"
-		]
 	}
 }
