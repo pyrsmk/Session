@@ -6,17 +6,13 @@ A simple session manager based on [Chernozem](https://github.com/pyrsmk/Chernoze
 Install
 -------
 
-You can install it with [Composer](https://getcomposer.org/) :
+Pick up the source or install it with [Composer](https://getcomposer.org/) :
 
 ```json
-{
-    "require": {
-        "pyrsmk/session": "~0.1"
-    }
-}
+composer require pyrsmk/session
 ```
 
-Or you can pick up the `Session.php` source file, but do not forget to add [Chernozem](https://github.com/pyrsmk/Chernozem) to your project.
+If you're not installing it with Composer, don't forget to load its dependencies too : [Chernozem](https://github.com/pyrsmk/Chernozem).
 
 Managing session variables
 --------------------------
