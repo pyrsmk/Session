@@ -1,4 +1,4 @@
-Session 0.1.2
+Session 0.1.3
 =============
 
 A simple session manager based on [Chernozem](https://github.com/pyrsmk/Chernozem).
@@ -8,7 +8,7 @@ Install
 
 Pick up the source or install it with [Composer](https://getcomposer.org/) :
 
-```json
+```
 composer require pyrsmk/session
 ```
 
