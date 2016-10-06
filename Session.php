@@ -5,7 +5,7 @@ use Chernozem;
 /*
 	Session manager
 */
-class Session extends Chernozem{
+class Session extends Chernozem\Container {
 
 	/*
 		Constructor
@@ -13,16 +13,17 @@ class Session extends Chernozem{
 		Parameters
 			string $namespace
 	*/
-	public function __construct($namespace=''){
-		// Init session
-		if($_SESSION===null){
+	public function __construct($namespace = '') {
+		if(isset($_SESSION)) {
 			session_start();
 		}
-		// Init values
-		$this->__chernozem_values=&$_SESSION[$namespace];
-		if($this->__chernozem_values===null){
-			$this->__chernozem_values=array();
+		
+		if(!isset($_SESSION[$namespace])){
+			$_SESSION[$namespace] = [];
 		}
+		
+		$this->values = &$_SESSION[$namespace];
+		
 		parent::__construct();
 	}
 

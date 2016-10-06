@@ -1,6 +1,6 @@
 {
 	"name": "pyrsmk/session",
-	"description": "A simple session variables manager",
+	"description": "A simple session manager",
 	"keywords": ["session"],
 	"license": "MIT",
 	"authors": [{
@@ -10,7 +10,7 @@
 	}],
 	"require": {
 		"php": ">=5.3.0",
-		"pyrsmk/chernozem": "3.*"
+		"pyrsmk/chernozem": "^4.2"
 	},
 	"autoload": {
 		"psr-0" : {
