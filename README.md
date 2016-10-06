@@ -21,9 +21,9 @@ As mentioned above, this library is based on Chernozem. Therefore, its use is pr
 
 ```php
 // Create the session object
-$session=new Session();
+$session = new Session();
 // Define a session variable
-$session['user_id']=$user_id;
+$session['user_id'] = $user_id;
 // Print a previously defined session variable
 echo $session['user_id'];
 // Remove a variable
@@ -33,7 +33,7 @@ unset($session['user_id']);
 If needed, you can add a namespace to your session by specifying it at instantiation :
 
 ```php
-$session=new Session('my_namespace');
+$session = new Session('my_namespace');
 ```
 
 License
