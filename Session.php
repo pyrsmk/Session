@@ -12,7 +12,7 @@ class Session extends Chernozem\Container {
 			string $namespace
 	*/
 	public function __construct($namespace = '') {
-		if(isset($_SESSION)) {
+		if(!isset($_SESSION)) {
 			session_start();
 		}
 		
